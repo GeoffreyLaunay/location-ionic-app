@@ -1,0 +1,7 @@
+{
+  "name": "locationApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
