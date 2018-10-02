@@ -1,1 +1,1 @@
-# Location Ionic Application
+# Plugins Native Ionic Application
