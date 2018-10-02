@@ -20,8 +20,11 @@ export class HomePage {
   }
 
   public getLocation() {
+    console.log("getLocation()");
+    
     this.geolocation.getCurrentPosition().then( (resp) => {
-      this.coords = resp.coords;
+      console.log(resp);
+      this.coords   = resp.coords;
       this.accuracy = resp.coords.accuracy
     }).catch( (error) => {
       this.error = error;
