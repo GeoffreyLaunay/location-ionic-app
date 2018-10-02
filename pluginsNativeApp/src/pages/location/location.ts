@@ -3,10 +3,10 @@ import { NavController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-location',
+  templateUrl: 'location.html'
 })
-export class HomePage {
+export class LocationPage {
 
   public coords: any;
   public accuracy: any;

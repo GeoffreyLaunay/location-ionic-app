@@ -1,5 +1,5 @@
 {
-  "name": "locationApp",
+  "name": "pluginsNativeApp",
   "integrations": {
     "cordova": {}
   },
